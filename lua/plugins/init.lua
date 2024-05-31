@@ -122,9 +122,9 @@ return {
   },
   {
     'nvim-lualine/lualine.nvim',
-    event = "BufRead",
+    event = "VeryLazy",
     config = function()
-      require "lua.configs.lualine"
+      require "configs.lualine"
     end
   }
 }
